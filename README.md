@@ -78,7 +78,7 @@ source venv/bin/activate  # On Windows: venv\Scripts\activate
 - ultralytics (for YOLOv11, if installed via pip)
 
 
-##  Running the Code
+##  Running the Model Training portion
 
 ```bash
 python main.py

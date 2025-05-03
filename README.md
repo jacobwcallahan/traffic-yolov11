@@ -12,6 +12,19 @@ This project implements an intelligent traffic signal system using YOLOv11 for r
 - Change the variable "input_path" in the file, this is currently set to a sample video "sample_video.mp4"
 - This outputs a video with the model applied to it. It defaults to "traffic_density_analysis_roi_cropped.mp4"
 
+### Required Dependencies for Inference
+numpy
+pandas
+matplotlib
+seaborn
+opencv-python
+PyYAML
+Pillow
+ultralytics
+
+
+
+
 ##  Project Overview
 
 Traffic congestion in urban cities is often worsened by static signal systems. This project leverages the YOLOv11 deep learning model to monitor traffic density and optimize signal timings accordingly.

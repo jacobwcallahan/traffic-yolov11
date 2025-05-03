@@ -45,7 +45,7 @@ YOLOv11 is an advanced real-time object detection model with the following benef
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/traffic-yolov11.git
+git clone https://github.com/jacobwcallahan/traffic-yolov11.git
 cd traffic-yolov11
 ```
 
@@ -99,16 +99,13 @@ jupyter notebook MLProject_Final.ipynb
 - Integrate with smart city APIs (like Google Maps or traffic sensors)
 
 ## Sample Videos
-- Two sample videos are provided in the folder titled "sample_video.mp4" and "car_traffic_video.mp4"
+- One sample video is provided in the folder titled "sample_video.mp4"
 
 
 # Implementing the model
 
 - Run the ML_Project_Inference_only.ipynb file
+- They use the weights "best.pt" which is obtained from training the model. 
 - Change the variable "input_path" in the file, this is currently set to a sample video "sample_video.mp4"
 - This outputs a video with the model applied to it. It defaults to traffic_density_analysis_roi_cropped.mp4
-
-## Required 
-
-
-
+- 

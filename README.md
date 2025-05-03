@@ -5,6 +5,13 @@ This project implements an intelligent traffic signal system using YOLOv11 for r
 
 ---
 
+## Implementing the model
+
+- Run the ML_Project_Inference_only.ipynb file
+- They use the weights "best.pt" which is obtained from training the model. 
+- Change the variable "input_path" in the file, this is currently set to a sample video "sample_video.mp4"
+- This outputs a video with the model applied to it. It defaults to traffic_density_analysis_roi_cropped.mp4
+
 ##  Project Overview
 
 Traffic congestion in urban cities is often worsened by static signal systems. This project leverages the YOLOv11 deep learning model to monitor traffic density and optimize signal timings accordingly.
@@ -101,11 +108,3 @@ jupyter notebook MLProject_Final.ipynb
 ## Sample Videos
 - One sample video is provided in the folder titled "sample_video.mp4"
 
-
-# Implementing the model
-
-- Run the ML_Project_Inference_only.ipynb file
-- They use the weights "best.pt" which is obtained from training the model. 
-- Change the variable "input_path" in the file, this is currently set to a sample video "sample_video.mp4"
-- This outputs a video with the model applied to it. It defaults to traffic_density_analysis_roi_cropped.mp4
-- 
